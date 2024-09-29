@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone - Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EAEDED;
+        }
+        header {
+            background-color: #131921;
+            color: white;
+            padding: 10px;
+        }
+        nav {
+            background-color: #232F3E;
+            color: white;
+            padding: 5px;
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        .product-image {
+            flex: 1;
+            padding: 20px;
+            background-color: white;
+        }
+        .product-info {
+            flex: 2;
+            padding: 20px;
+            background-color: white;
+            margin-left: 20px;
+        }
+        .buy-box {
+            flex: 1;
+            padding: 20px;
+            background-color: white;
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #232F3E;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #FFD814;
+            border: none;
+            color: #0F1111;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img height="70" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000071645/9a5de88c345cc0a8ae844f95b90448fda51c7e3168e9a4b7b6ab3b1ea4e8f266" alt="Amazon Logo" style="vertical-align: middle;">
+        <input type="text" placeholder="Search Amazon" style="width: 50%; padding: 5px; margin-left: 20px;">
+        <span style="float: right;">
+            Hello, Sign in
+            Account & Lists
+            Returns & Orders
+            Cart
+        </span>
+    </header>
+    
+    <nav>
+        All | Today's Deals | Customer Service | Registry | Gift Cards | Sell
+    </nav>
+    
+    <main>
+        <div class="product-image">
+            <img src="https://thumbs.dreamstime.com/b/girl-wreath-flowers-holding-young-plant-beautiful-ground-51593078.jpg" alt="Product Image">
+        </div>
+        
+        <div class="product-info">
+            <h1>Flower Crown</h1>
+            <p>by Russian beauty brand</p>
+            <hr>
+            <h2>About this item</h2>
+            <ul>
+                <li>Fully natural</li>
+                <li>Good smell</li>
+                <li>For your loved one</li>
+            </ul>
+        </div>
+        
+        <div class="buy-box">
+            <h2>₹99.99</h2>
+            <p>FREE Delivery by this girl: Tomorrow</p>
+            <p>In Stock.</p>
+            <select>
+                <option>Qty: 1</option>
+                <option>Qty: 2</option>
+                <option>Qty: 3</option>
+            </select>
+            <br><br>
+            <button class="button">Add to Cart</button>
+            <br><br>
+            <button class="button" style="background-color: #FFA41C;">Buy Now</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Get to Know Us | Make Money with Us | Amazon Payment Products | Let Us Help You</p>
+        <p>&copy; 1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+</body>
+</html>
